@@ -37,7 +37,7 @@ public class InfoServiceImpl implements InfoService {
 
 	@Override
 	public InfoModel getByCode(String code) throws NotFoundInfoException {
-		return repository.findByCode(code).orElseThrow(() -> new NotFoundInfoException("This info does not exist, by this code: %s".formatted(code)));
+		return mapper.toInfoModel(repository.findByCode(code).orElseThrow(() -> new NotFoundInfoException("This info does not exist, by this code: %s".formatted(code))));
 	}
 
 	@Override

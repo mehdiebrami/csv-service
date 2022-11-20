@@ -10,5 +10,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface InfoRepository extends JpaRepository<Info, Long> {
-	Optional<InfoModel> findByCode(String code);
+	Optional<Info> findByCode(String code);
 }

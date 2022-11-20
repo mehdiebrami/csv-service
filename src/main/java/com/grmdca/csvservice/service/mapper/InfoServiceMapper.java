@@ -12,4 +12,6 @@ public interface InfoServiceMapper {
 	List<Info> toInfoList(List<InfoModel> infoModels);
 
 	List<InfoModel> toInfoModels(List<Info> all);
+
+	InfoModel toInfoModel(Info orElseThrow);
 }
