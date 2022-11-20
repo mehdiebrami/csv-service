@@ -1,4 +1,4 @@
-package com.gerimedica.csvservice.service.model;
+package com.grmdca.csvservice.service.model;
 
 
 import java.util.Date;

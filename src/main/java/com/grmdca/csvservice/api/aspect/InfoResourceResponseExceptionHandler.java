@@ -1,7 +1,7 @@
-package com.gerimedica.csvservice.api.aspect;
+package com.grmdca.csvservice.api.aspect;
 
-import com.gerimedica.csvservice.exception.CsvFileException;
-import com.gerimedica.csvservice.exception.NotFoundInfoException;
+import com.grmdca.csvservice.exception.NotFoundInfoException;
+import com.grmdca.csvservice.exception.CsvFileException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 

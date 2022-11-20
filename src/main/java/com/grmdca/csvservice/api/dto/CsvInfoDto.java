@@ -1,4 +1,4 @@
-package com.gerimedica.csvservice.api.dto;
+package com.grmdca.csvservice.api.dto;
 
 import java.util.Date;
 

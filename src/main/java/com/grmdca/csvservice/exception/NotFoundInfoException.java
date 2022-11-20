@@ -1,4 +1,4 @@
-package com.gerimedica.csvservice.exception;
+package com.grmdca.csvservice.exception;
 
 public class NotFoundInfoException extends Exception {
 

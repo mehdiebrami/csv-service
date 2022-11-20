@@ -1,4 +1,4 @@
-package com.gerimedica.csvservice.domain;
+package com.grmdca.csvservice.domain;
 
 
 import java.util.Date;

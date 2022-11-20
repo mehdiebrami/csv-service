@@ -1,17 +1,17 @@
-package com.gerimedica.csvservice.api;
+package com.grmdca.csvservice.api;
 
 import java.util.Date;
 import java.util.List;
 
 import javax.servlet.http.HttpServletResponse;
 
-import com.gerimedica.csvservice.api.dto.CsvInfoDto;
-import com.gerimedica.csvservice.api.mapper.InfoResourceMapper;
-import com.gerimedica.csvservice.exception.CsvFileException;
-import com.gerimedica.csvservice.exception.NotFoundInfoException;
-import com.gerimedica.csvservice.service.InfoService;
-import com.gerimedica.csvservice.service.model.InfoModel;
-import com.gerimedica.csvservice.util.Utils;
+import com.grmdca.csvservice.api.mapper.InfoResourceMapper;
+import com.grmdca.csvservice.exception.CsvFileException;
+import com.grmdca.csvservice.exception.NotFoundInfoException;
+import com.grmdca.csvservice.service.InfoService;
+import com.grmdca.csvservice.service.model.InfoModel;
+import com.grmdca.csvservice.util.Utils;
+import com.grmdca.csvservice.api.dto.CsvInfoDto;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

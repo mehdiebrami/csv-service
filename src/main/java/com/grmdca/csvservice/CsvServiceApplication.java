@@ -1,4 +1,4 @@
-package com.gerimedica.csvservice;
+package com.grmdca.csvservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

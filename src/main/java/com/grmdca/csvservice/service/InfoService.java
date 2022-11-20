@@ -1,9 +1,9 @@
-package com.gerimedica.csvservice.service;
+package com.grmdca.csvservice.service;
 
 import java.util.List;
 
-import com.gerimedica.csvservice.exception.NotFoundInfoException;
-import com.gerimedica.csvservice.service.model.InfoModel;
+import com.grmdca.csvservice.exception.NotFoundInfoException;
+import com.grmdca.csvservice.service.model.InfoModel;
 
 public interface InfoService {
 

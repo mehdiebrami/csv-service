@@ -1,13 +1,13 @@
-package com.gerimedica.csvservice.service.impl;
+package com.grmdca.csvservice.service.impl;
 
 import java.util.List;
 
-import com.gerimedica.csvservice.domain.Info;
-import com.gerimedica.csvservice.exception.NotFoundInfoException;
-import com.gerimedica.csvservice.repository.InfoRepository;
-import com.gerimedica.csvservice.service.InfoService;
-import com.gerimedica.csvservice.service.mapper.InfoServiceMapper;
-import com.gerimedica.csvservice.service.model.InfoModel;
+import com.grmdca.csvservice.domain.Info;
+import com.grmdca.csvservice.exception.NotFoundInfoException;
+import com.grmdca.csvservice.repository.InfoRepository;
+import com.grmdca.csvservice.service.InfoService;
+import com.grmdca.csvservice.service.mapper.InfoServiceMapper;
+import com.grmdca.csvservice.service.model.InfoModel;
 import lombok.AllArgsConstructor;
 import org.apache.commons.collections4.CollectionUtils;
 

@@ -1,10 +1,10 @@
-package com.gerimedica.csvservice.service.mapper;
+package com.grmdca.csvservice.service.mapper;
 
 
 import java.util.List;
 
-import com.gerimedica.csvservice.domain.Info;
-import com.gerimedica.csvservice.service.model.InfoModel;
+import com.grmdca.csvservice.domain.Info;
+import com.grmdca.csvservice.service.model.InfoModel;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")

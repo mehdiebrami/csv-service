@@ -1,4 +1,4 @@
-package com.gerimedica.csvservice.util;
+package com.grmdca.csvservice.util;
 
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -8,9 +8,9 @@ import java.util.Objects;
 
 import javax.servlet.http.HttpServletResponse;
 
-import com.gerimedica.csvservice.api.dto.CsvInfoDto;
-import com.gerimedica.csvservice.exception.CsvFileException;
-import com.gerimedica.csvservice.service.model.InfoModel;
+import com.grmdca.csvservice.api.dto.CsvInfoDto;
+import com.grmdca.csvservice.exception.CsvFileException;
+import com.grmdca.csvservice.service.model.InfoModel;
 import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder;
 import com.opencsv.bean.StatefulBeanToCsv;

@@ -8,7 +8,7 @@
 		<version>2.7.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.gerimedica</groupId>
+	<groupId>com.grmdca</groupId>
 	<artifactId>csv-service</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<name>csv-service</name>
@@ -128,7 +128,7 @@
 					</to>
 					<container>
 						<labels>
-							<group>gerimedica</group>
+							<group>grmdca</group>
 							<service>${project.artifactId}</service>
 						</labels>
 					</container>
