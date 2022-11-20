@@ -31,7 +31,7 @@ public class Utils {
 			throw new CsvFileException("File type is wrong: %s".formatted(file.getContentType()));
 		}
 		try (Reader reader = new InputStreamReader(file.getInputStream())) {
-			CsvToBean<CsvInfoDto> csvToBean = new CsvToBeanBuilder(reader)
+			CsvToBean csvToBean = new CsvToBeanBuilder(reader)
 					.withSkipLines(1)
 					.withType(CsvInfoDto.class)
 					.withIgnoreLeadingWhiteSpace(true)
