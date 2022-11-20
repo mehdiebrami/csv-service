@@ -3,6 +3,7 @@ package com.gerimedica.csvservice.domain;
 
 import java.util.Date;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -16,11 +17,12 @@ public class Info {
 	@GeneratedValue
 	private Long id;
 
+	@Column(unique = true)
+	private String code;
+
 	private String source;
 
 	private String codeListCode;
-
-	private String code;
 
 	private String displayValue;
 
